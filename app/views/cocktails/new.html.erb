@@ -1,0 +1,19 @@
+<%= simple_form_for [@cocktail] do |f| %>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-sm-offset-4">
+          <div class="form-card">
+             <h3>Adicione aqui seu cocktail! Seja Criativo!</h3>
+            <p><%= f.input :name %></p>
+
+            <div class="form-button">
+            <button class="btn  btn btn-primary btn-sm">Add!</button>
+             </div>
+          </div>
+        </div>
+      </div>
+   </div>
+
+<% end %>
